@@ -106,10 +106,10 @@
 
 1. **Smart Connect** = OFF
 2. 切换「频段」下拉到 **2.4GHz**：
-   - SSID：`andylei`（沿用）
+   - SSID：起个名字，如 `MyWiFi`
    - 应用
 3. 切换「频段」下拉到 **5GHz**：
-   - SSID：`andylei_5G`（加后缀区分）
+   - SSID：用一个不同的名字加后缀区分，如 `MyWiFi_5G`
    - 密码与 2.4G 一致（省事）
    - **频道带宽**：80 MHz
    - **频道**：**36**（见下方坑点）
@@ -168,7 +168,7 @@
 
 ### 3.2 Wi-Fi
 
-连接 `andylei_5G`（5GHz）：
+连接你的 5GHz Wi-Fi：
 - 5GHz 带宽更大，码率上得去
 - ⚠️ 但如果距离路由器远（隔墙、信号 3 格以下），**反而 2.4G 更稳定**，亲测验证
 
@@ -302,7 +302,7 @@ PS Portal 标准画质码率才 5-15 Mbps，2.4G 带宽完全够。
 - ✅ 代理 `sonyagent.com:8070`（异地用）
 
 **PS Portal**
-- ✅ Wi-Fi：andylei_5G 或 andylei（看信号强度二选一）
+- ✅ Wi-Fi：5GHz 或 2.4GHz（看信号强度二选一）
 - ✅ 代理 `sonyagent.com:8070`
 - ✅ 异地切换 Wi-Fi 时记得重设代理
 
